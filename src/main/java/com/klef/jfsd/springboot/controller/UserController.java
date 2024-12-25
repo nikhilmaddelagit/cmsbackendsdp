@@ -19,8 +19,8 @@ import com.klef.jfsd.springboot.models.User;
 import com.klef.jfsd.springboot.service.UserService;
 
 @RestController
-@RequestMapping("user")
-@CrossOrigin(origins = "https://certificationmanagementsystem.vercel.app/") // Allow CORS for specific frontend origin
+@RequestMapping("/user")
+@CrossOrigin(origins = "https://certificationmanagementsystem.vercel.app") // Allow CORS for specific frontend origin
 
 public class UserController {
 

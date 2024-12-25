@@ -25,7 +25,7 @@ import com.klef.jfsd.springboot.service.CertiService;
 
 @RestController
 @RequestMapping("/certificate")
-@CrossOrigin(origins = "https://certificationmanagementsystem.vercel.app/") // Allow CORS for specific frontend origin
+@CrossOrigin(origins = "https://certificationmanagementsystem.vercel.app") // Allow CORS for specific frontend origin
 
 public class CertificateController 
 {
