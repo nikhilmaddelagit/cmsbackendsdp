@@ -26,7 +26,7 @@ import com.klef.jfsd.springboot.service.AdminService;
 
 @Controller
 @RequestMapping("admin")
-@CrossOrigin()  
+@CrossOrigin(origins = "https://certification-management-system.vercel.app") // Allow CORS for specific frontend origin
 
 public class AdminController 
 {
