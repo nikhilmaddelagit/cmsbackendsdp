@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer
     public void addCorsMappings(CorsRegistry registry) 
     {
       registry.addMapping("/certificate/**") // Allow CORS 
-                .allowedOrigins("http://localhost:5173")
+                .allowedOrigins("https://certification-management-system.vercel.app/")
                 .allowedMethods("GET", "POST", "PUT", "DELETE")
                 .allowedHeaders("*")
                 .allowCredentials(true);
